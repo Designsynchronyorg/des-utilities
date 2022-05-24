@@ -1,8 +1,8 @@
 {
   "name": "des-utilities",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Reusuable components for web development",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "webpack"
   },
@@ -13,6 +13,10 @@
   ],
   "author": "Design Synchrony",
   "license": "MIT",
+  "dependencies": {
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.17.12",
     "@babel/preset-env": "^7.17.12",

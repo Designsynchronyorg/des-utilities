@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const BindThis = (self, methods) => {
+export default function BindThis (self, methods) {
     return methods.map((method) => (
         self[method] = self[method].bind(self)
     ));
