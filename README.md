@@ -104,17 +104,23 @@ class child extends React.Component{
     constructor(props){
         super(props);
 
+        this.state = {
+            name: ''
+        }
+
         BindThis(this, [changeName]);
     }
 
-    function changeName(name){
-        CallParentMethod(this, this.props.changeName, ['name'])
+    function changeName(){
+        // call changeName method passed to child as prop and pass "name" as prop. props could be of any type
+        CallParentMethod(this, this.props.changeName, this.state.name)
         ...
     }
 
     render () {
         return (
-            <Button ... onClick={this.changeName} />
+            <input type="text" value={this.state.name} />
+            <button ... onClick={this.changeName} />
         )
     }
     ...
@@ -259,4 +265,3 @@ Please adhere to this project's `code of conduct`.
 ## Documentation
 
 [Documentation](https://linktodocumentation)
-
