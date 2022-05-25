@@ -240,7 +240,7 @@ export default dynamicComponent(Profile);
 Note: error message is extracted by the ```ProcessHttpMessage``` function passed to the ```HttpRequest``` function
 ## Authors
 
-- [@abreel](https://www.github.com/abreel)
+- [@abreel](https://github.com/abreel)
 
 
 ## Feedback
@@ -264,4 +264,4 @@ Please adhere to this project's `code of conduct`.
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
+[Documentation](https://github.com/designsynchrony/des-utilities/blob/main/DOCUMENTATION.md#documentation)
